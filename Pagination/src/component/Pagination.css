@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+
+.pagination{
+    padding: 10px;
+    margin: 15px 0;
+    display: flex;
+    justify-content: center; 
+    gap: 15px;
+    
+    /* cursor: pointer; */
+}
+
+.pagination > span{
+    padding: 15px 20px;
+    border: 1px solid gray;
+    cursor: pointer;
+    
+}
+
+.paginationColor{
+    background-color: rgb(4, 22, 18);
+}
+
+.paginationHidden{
+    opacity: 50%;
+}
+.paginationHidden:hover{
+    cursor: not-allowed;
+}
